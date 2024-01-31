@@ -1,0 +1,8 @@
+#!/bin/bash
+read a
+if [ $a -gt 5 ]
+then
+echo "The test value $a is greater than 5"
+else
+echo "The test value $a is not greater than 5"
+fi

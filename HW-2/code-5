@@ -1,0 +1,12 @@
+#!/bin/bash
+# Создадим функцию, 
+function func {
+    # Вводим число
+    read -p "Enter a value: " value
+    # Печатаем результат 
+    echo $(( $value + 10 ))
+}
+# Вызываем функицю и присваиваем значение, которое она возвращает, переменной result
+result=$( func)
+# Печатаем результат
+echo "The value is $result"

@@ -1,0 +1,7 @@
+#!/bin/bash
+val=10
+while [ $val -gt 0 ]
+do
+echo $val
+val=$[ $val - 1 ]
+done
